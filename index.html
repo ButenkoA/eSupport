@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CSautoProj</title>
+</head>
+<header>
+    <h1>JS test for duplicated cases</h1>
+</header>
+
+<body>
+    <Button class="clear">Clear results</Button>
+    <div id="myModal" class="modal">
+        <div class="modal-names">
+            <span>Client's name</span>
+            <input type="text" id="client-name">
+            <span>Your name</span>
+            <input type="text" id="cs-name">
+        </div>
+        <div class="modal-content">
+            <span>Original case №</span>
+            <input type="text" id="input-case"><br><br>
+            <span>You're on the</span>
+            <select id="mySelect">
+                <option>original</option>
+                <option>duplicated</option>
+            </select><br><br>
+            <span>and your current case is</span>
+            <select id="select">
+                <option>new</option>
+                <option>reopen</option>
+            </select><br><br>
+            <button id="submitBtn">Create the answer</button>
+        </div>
+        <div class="modal-results">
+            <div>
+                <span id="result">Your answer:</span>
+            </div>
+        </div>
+
+    </div>
+    <button id="btnCopy">Copy</button>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
